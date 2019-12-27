@@ -1,0 +1,280 @@
+body,html{   
+    height: 100%;
+}
+.topnav{
+    background-color: green;
+    overflow: hidden;
+    padding-right: 4em;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: azure;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:  17px;
+}
+
+.topnav a:hover{
+    background-color: goldenrod;
+    color: black;
+    padding: 14px 16px;
+}
+.topnav a.active{
+background-color: yellow;
+color: black;
+}
+div.hero-image{
+    background-image: url(../images/mother\ and\ son.jpeg);
+    height: 600px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.hero-text{
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: ivory;
+}
+.column{
+    width: 100%;
+    color: goldenrod;
+}
+div.hero-text h1{
+    font-size: 3em;
+}
+div.hero-text a button{
+    color: black;
+    background-color: red;
+    border: red;
+    padding: 10px;
+    border-radius: 10%;
+}
+section.description{
+    max-width: 80%;
+    text-align: center;
+    margin: auto;
+    background-color: mediumturquoise;
+}
+div.pink{
+    max-width: 100%;
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    background-color: green;
+}
+div.body-a{
+    text-align: center;
+    color: white;
+    max-width: 100%;
+    background-image: url(../images/green\ truck.jpg);
+    height: 400px;
+    text-decoration-style: solid;
+    padding-top: 5em;
+    padding-bottom: 4em;
+    background-repeat: initial;
+    background-size: cover;
+}
+.jay{
+    color: goldenrod;
+    font-size: 2em;
+}
+.dark{
+    color: red;
+    font-size: 2em;
+}
+.you{
+    color: seashell;
+}
+div.body-av{
+    text-align: center;
+    max-width: 100%;
+    padding-top: 4em;
+    background-image: url(../images/children\ 22.jpeg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.boy{
+    color: greenyellow;
+    font-size: 4em;
+}
+div.body-am{
+    text-align: center;
+    max-width: 100%;
+    padding-top: 4em;
+    background-color: goldenrod;
+    height: 200px;
+}
+div.front{
+    font-size: 1.2em;
+}
+.front-a{
+    color: black;
+}
+.havey{
+    text-align: center;
+    color: white;
+    max-width: inherit;
+    background-color: goldenrod;
+    height: 400px;
+    text-decoration-style: solid;
+    padding-top: 5em;
+    padding-bottom: 4em;
+}
+.column{
+    float: left;
+    width: 33.3%;
+}
+.column img{
+    width: 100%;
+    height: auto;   
+}
+.row{
+    text-align: center;
+    padding-bottom: 30px;
+    text-transform: capitalize;
+    margin-bottom: 0%;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+    background-color: olive;
+    text-align: center;
+    padding: 20px;
+}
+div.recyclingsam{
+    text-align: center;
+}
+.recyclebutton{
+    color: black;
+    background-color: red;
+    border: red;
+    padding: 10px;
+    border-radius: 10%;
+}
+.harde{
+    background-image: url(../images/re-2.jpg);
+    width: 100%;
+    height: 300px;
+    font-size: 3em;
+    color: cornsilk;
+    padding-top: 1em;
+}
+span{
+    color: greenyellow;
+}
+section.contact-body{
+    background-image: url(../images/green\ 2\ truck22.gif);
+    height: 600px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ava{
+    background-color: red;
+    height: 4%;
+    width: 6%;
+    border-radius: 10px;
+}
+.recycle-ab{
+    color: greenyellow;
+    font-size: 3em;
+    
+}
+.hew{
+    text-align: left;
+    color: black;
+    background-color: gold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.director-a{
+    text-align: center;
+    max-width: 100%;
+    padding-top: 20px;
+    background-color: peachpuff;
+    padding-bottom: 20px;
+}
+.raph-a{
+    text-align: center;
+    max-width: 100%;
+    padding-top: 20px;
+    background-color: peachpuff;
+    padding-bottom: 20px;
+    color: black;
+}
+.raph{
+    color: black;
+}
+div.hava{
+    text-align: center;
+    background-color: peachpuff;
+    padding-bottom: 4em;
+    padding-top: 4em;
+}
+div.ham{
+    text-align: center;
+    background-color: gold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer p{
+    color: peru;
+}
+div.array{
+    color: white;
+}
+.topnav .icon{
+    display: none;
+}
+@media screen and (max-width: 600px){
+    .column{
+        width: 100%;
+    }
+div.hero-text h1 {
+    font-size: 2.5em;
+}
+div.hero-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% -50%);
+    color: red;
+}
+.topnav .icon{
+    display: none;
+}
+}
+@media screen and(max-width:600px){    
+    .topnav a:not(:first-child){
+        display:none;
+    }
+    .topnav a.icon{
+        float: right;
+        display: block;
+    }
+}
+@media screen and (max-width:600px){
+    .topnav.responsive{
+        position: relative;
+    }
+    .topnav.responsive a.icon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .topnav.responsive a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
