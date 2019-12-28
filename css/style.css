@@ -15,14 +15,23 @@ body,html{
     text-decoration: none;
     font-size:  17px;
 }
-
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 0em;
+    font-size: 2.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    height: 1.25rem;
+}
 .topnav a:hover{
     background-color: goldenrod;
     color: black;
     padding: 14px 16px;
 }
 .topnav a.active{
-background-color: yellow;
+background-color: gold;
 color: black;
 }
 div.hero-image{
@@ -74,7 +83,7 @@ div.body-a{
     background-image: url(../images/green\ truck.jpg);
     height: 400px;
     text-decoration-style: solid;
-    padding-top: 5em;
+    padding-top: 2em;
     padding-bottom: 4em;
     background-repeat: initial;
     background-size: cover;
@@ -85,7 +94,7 @@ div.body-a{
 }
 .dark{
     color: red;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 .you{
     color: seashell;
@@ -93,7 +102,7 @@ div.body-a{
 div.body-av{
     text-align: center;
     max-width: 100%;
-    padding-top: 4em;
+    padding-top: 3em;
     background-image: url(../images/children\ 22.jpeg);
     height: 200px;
     background-repeat: no-repeat;
@@ -101,12 +110,12 @@ div.body-av{
 }
 .boy{
     color: greenyellow;
-    font-size: 4em;
+    font-size: 3em;
 }
 div.body-am{
     text-align: center;
     max-width: 100%;
-    padding-top: 4em;
+    padding-top: 3em;
     background-color: goldenrod;
     height: 200px;
 }
@@ -186,7 +195,7 @@ section.contact-body{
 }
 .recycle-ab{
     color: greenyellow;
-    font-size: 3em;
+    font-size: 2em;
     
 }
 .hew{
@@ -200,14 +209,14 @@ section.contact-body{
     text-align: center;
     max-width: 100%;
     padding-top: 20px;
-    background-color: peachpuff;
+    background-color: goldenrod;
     padding-bottom: 20px;
 }
 .raph-a{
     text-align: center;
     max-width: 100%;
     padding-top: 20px;
-    background-color: peachpuff;
+    background-color: goldenrod;
     padding-bottom: 20px;
     color: black;
 }
@@ -216,19 +225,19 @@ section.contact-body{
 }
 div.hava{
     text-align: center;
-    background-color: peachpuff;
+    background-color: green;
     padding-bottom: 4em;
-    padding-top: 4em;
+    padding-top: 3em;
 }
 div.ham{
     text-align: center;
-    background-color: gold;
+    background-color: goldenrod;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 footer p{
     color: peru;
-}
+}  
 div.array{
     color: white;
 }
